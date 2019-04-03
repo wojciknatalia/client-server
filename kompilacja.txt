@@ -1,0 +1,6 @@
+pliki kompilowa³am w nastêpuj¹cy sposób:
+
+gcc producent.c buffer.c -o producent.o -lrt -lcrypto
+gcc konsument.c -o konsument.o -lcrypto
+
+wymagaj¹ równie¿ instalacji openssl
